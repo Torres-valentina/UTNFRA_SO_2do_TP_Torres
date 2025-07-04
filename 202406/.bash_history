@@ -289,3 +289,11 @@ cp /home/valentinat/RTA_Examen_20250704/Punto_B.sh 202406/RTA_Examen_20250704_En
 cp /home/valentinat/RTA_Examen_20250704/Punto_C.sh 202406/RTA_Examen_20250704_Entrega/
 ls -l 202406/RTA_Examen_20250704_Entrega/
 history -a # Guarda el historial actual de la sesión
+cp ~/.bash_history 202406/.bash_history
+git add .
+git commit -m "Agrega scripts de Punto A, B, C y actualiza bash_history para el Examen"
+git push origin main
+find ~ -name "SartoriAltaUser-Groups.sh" 2>/dev/null
+touch 202406/RTA_Examen_20250704_Entrega/SartoriAltaUser-Groups.sh
+ls -l 202406/RTA_Examen_20250704_Entrega/
+history -a
