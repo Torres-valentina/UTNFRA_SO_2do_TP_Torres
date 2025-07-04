@@ -1,0 +1,8 @@
+---
+- name: Ejecutar tareas del TP2 Examen
+  hosts: all
+  become: yes
+  gather_facts: yes
+
+  roles:
+    - tp2_examen

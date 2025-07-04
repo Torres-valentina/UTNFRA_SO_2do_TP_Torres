@@ -1,0 +1,176 @@
+2024-06-24 18:08:06,499 p=3444395 u=upszot n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-06-24 18:08:06,598 p=3444395 u=upszot n=ansible | PLAY [all] **********************************************************************************************************************************************************************************************************************************
+2024-06-24 18:08:06,609 p=3444395 u=upszot n=ansible | TASK [Gathering Facts] **********************************************************************************************************************************************************************************************************************
+2024-06-24 18:08:07,746 p=3444395 u=upszot n=ansible | ok: [localhost]
+2024-06-24 18:08:07,775 p=3444395 u=upszot n=ansible | TASK [include_role : 2do_parcial] ***********************************************************************************************************************************************************************************************************
+2024-06-24 18:08:07,805 p=3444395 u=upszot n=ansible | TASK [2do_parcial : debug] ******************************************************************************************************************************************************************************************************************
+2024-06-24 18:08:07,817 p=3444395 u=upszot n=ansible | ok: [localhost] => {
+    "msg": "Tareas del 2do Parcial"
+}
+2024-06-24 18:08:07,836 p=3444395 u=upszot n=ansible | TASK [Otra tarea] ***************************************************************************************************************************************************************************************************************************
+2024-06-24 18:08:07,851 p=3444395 u=upszot n=ansible | ok: [localhost] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-06-24 18:08:07,885 p=3444395 u=upszot n=ansible | PLAY RECAP **********************************************************************************************************************************************************************************************************************************
+2024-06-24 18:08:07,885 p=3444395 u=upszot n=ansible | localhost                  : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-07-04 03:58:07,647 p=3781 u=valentinat n=ansible | ERROR! The vault password file /home/valentinat/.ansible_vault_pass was not found
+2025-07-04 04:00:32,622 p=3789 u=valentinat n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/valentinat/UTN-FRA_SO_Examenes/202406/ansible/playbook.yml': line 3, column 10, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+-name: Ejecutar tareas del TP2 Examen
+    hosts: all # O el grupo de hosts donde quieras aplicar esto
+         ^ here
+
+2025-07-04 04:00:33,288 p=3793 u=valentinat n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/valentinat/UTN-FRA_SO_Examenes/202406/ansible/playbook.yml': line 3, column 10, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+-name: Ejecutar tareas del TP2 Examen
+    hosts: all # O el grupo de hosts donde quieras aplicar esto
+         ^ here
+
+2025-07-04 04:03:31,950 p=3800 u=valentinat n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/valentinat/UTN-FRA_SO_Examenes/202406/ansible/playbook.yml': line 3, column 10, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+- name: Ejecutar tareas del TP2 Examen
+    hosts: all
+         ^ here
+
+2025-07-04 04:03:32,610 p=3804 u=valentinat n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/valentinat/UTN-FRA_SO_Examenes/202406/ansible/playbook.yml': line 3, column 10, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+- name: Ejecutar tareas del TP2 Examen
+    hosts: all
+         ^ here
+
+2025-07-04 04:06:35,011 p=3811 u=valentinat n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/valentinat/UTN-FRA_SO_Examenes/202406/ansible/playbook.yml': line 3, column 10, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+- name: Ejecutar tareas del TP2 Examen
+    hosts: all
+         ^ here
+
+2025-07-04 04:06:35,653 p=3815 u=valentinat n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/valentinat/UTN-FRA_SO_Examenes/202406/ansible/playbook.yml': line 3, column 10, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+- name: Ejecutar tareas del TP2 Examen
+    hosts: all
+         ^ here
+
+2025-07-04 04:20:38,453 p=3832 u=valentinat n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/valentinat/UTN-FRA_SO_Examenes/202406/ansible/roles/tp2_examen/tasks/main.yml': line 3, column 25, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+- name: Crear directorio base /tmp/2do_parcial
+    ansible.builtin.file:
+                        ^ here
+
+2025-07-04 04:20:39,247 p=3836 u=valentinat n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/valentinat/UTN-FRA_SO_Examenes/202406/ansible/roles/tp2_examen/tasks/main.yml': line 3, column 25, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+- name: Crear directorio base /tmp/2do_parcial
+    ansible.builtin.file:
+                        ^ here
+
+2025-07-04 04:22:31,355 p=3844 u=valentinat n=ansible | PLAY [Ejecutar tareas del TP2 Examen] ******************************************************************
+2025-07-04 04:22:31,379 p=3844 u=valentinat n=ansible | TASK [Gathering Facts] *********************************************************************************
+2025-07-04 04:22:31,837 p=3844 u=valentinat n=ansible | fatal: [localhost]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"ansible.legacy.setup": {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "failed": true, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}}, "msg": "The following modules failed to execute: ansible.legacy.setup\n"}
+2025-07-04 04:22:31,838 p=3844 u=valentinat n=ansible | PLAY RECAP *********************************************************************************************
+2025-07-04 04:22:31,839 p=3844 u=valentinat n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-07-04 04:22:32,672 p=3883 u=valentinat n=ansible | PLAY [Ejecutar tareas del TP2 Examen] ******************************************************************
+2025-07-04 04:22:32,686 p=3883 u=valentinat n=ansible | TASK [Gathering Facts] *********************************************************************************
+2025-07-04 04:22:33,056 p=3883 u=valentinat n=ansible | fatal: [localhost]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"ansible.legacy.setup": {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "failed": true, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}}, "msg": "The following modules failed to execute: ansible.legacy.setup\n"}
+2025-07-04 04:22:33,057 p=3883 u=valentinat n=ansible | PLAY RECAP *********************************************************************************************
+2025-07-04 04:22:33,058 p=3883 u=valentinat n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-07-04 04:23:14,188 p=3925 u=valentinat n=ansible | PLAY [Ejecutar tareas del TP2 Examen] ******************************************************************
+2025-07-04 04:23:14,203 p=3925 u=valentinat n=ansible | TASK [Gathering Facts] *********************************************************************************
+2025-07-04 04:23:14,584 p=3925 u=valentinat n=ansible | fatal: [localhost]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"ansible.legacy.setup": {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "failed": true, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}}, "msg": "The following modules failed to execute: ansible.legacy.setup\n"}
+2025-07-04 04:23:14,585 p=3925 u=valentinat n=ansible | PLAY RECAP *********************************************************************************************
+2025-07-04 04:23:14,586 p=3925 u=valentinat n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-07-04 04:23:15,405 p=3964 u=valentinat n=ansible | PLAY [Ejecutar tareas del TP2 Examen] ******************************************************************
+2025-07-04 04:23:15,420 p=3964 u=valentinat n=ansible | TASK [Gathering Facts] *********************************************************************************
+2025-07-04 04:23:15,796 p=3964 u=valentinat n=ansible | fatal: [localhost]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"ansible.legacy.setup": {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "failed": true, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}}, "msg": "The following modules failed to execute: ansible.legacy.setup\n"}
+2025-07-04 04:23:15,797 p=3964 u=valentinat n=ansible | PLAY RECAP *********************************************************************************************
+2025-07-04 04:23:15,798 p=3964 u=valentinat n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-07-04 04:28:59,567 p=4013 u=valentinat n=ansible | PLAY [Ejecutar tareas del TP2 Examen] ******************************************************************
+2025-07-04 04:28:59,579 p=4013 u=valentinat n=ansible | TASK [Gathering Facts] *********************************************************************************
+2025-07-04 04:29:00,739 p=4013 u=valentinat n=ansible | ok: [localhost]
+2025-07-04 04:29:00,759 p=4013 u=valentinat n=ansible | TASK [tp2_examen : Crear directorio base /tmp/2do_parcial] *********************************************
+2025-07-04 04:29:01,079 p=4013 u=valentinat n=ansible | changed: [localhost]
+2025-07-04 04:29:01,089 p=4013 u=valentinat n=ansible | TASK [tp2_examen : Crear directorio alumno] ************************************************************
+2025-07-04 04:29:01,273 p=4013 u=valentinat n=ansible | changed: [localhost]
+2025-07-04 04:29:01,283 p=4013 u=valentinat n=ansible | TASK [tp2_examen : Crear directorio equipo] ************************************************************
+2025-07-04 04:29:01,488 p=4013 u=valentinat n=ansible | changed: [localhost]
+2025-07-04 04:29:01,500 p=4013 u=valentinat n=ansible | TASK [tp2_examen : Generar datos_alumno.txt] ***********************************************************
+2025-07-04 04:29:02,669 p=4013 u=valentinat n=ansible | changed: [localhost]
+2025-07-04 04:29:02,686 p=4013 u=valentinat n=ansible | TASK [tp2_examen : Generar datos_equipo.txt] ***********************************************************
+2025-07-04 04:29:03,184 p=4013 u=valentinat n=ansible | changed: [localhost]
+2025-07-04 04:29:03,199 p=4013 u=valentinat n=ansible | TASK [tp2_examen : Asegurar que el grupo 2PSupervisores exista] ****************************************
+2025-07-04 04:29:03,617 p=4013 u=valentinat n=ansible | ok: [localhost]
+2025-07-04 04:29:03,634 p=4013 u=valentinat n=ansible | TASK [tp2_examen : Configurar sudoers para 2PSupervisores (NOPASSWD)] **********************************
+2025-07-04 04:29:04,092 p=4013 u=valentinat n=ansible | changed: [localhost]
+2025-07-04 04:29:04,115 p=4013 u=valentinat n=ansible | PLAY RECAP *********************************************************************************************
+2025-07-04 04:29:04,115 p=4013 u=valentinat n=ansible | localhost                  : ok=8    changed=6    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
