@@ -269,3 +269,23 @@ cd UTNFRA_SO_2do_TP_Torres/
 cp -r ~/UTN-FRA_SO_Examenes/202406/ .
 cp -r 202406/ansible/RTA_Examen_20250704/ 202406/RTA_Examen_20250704_Entrega/
 history -a
+cp ~/.bash_history 202406/.bash_history
+ls -lR 202406/
+git add .
+git status
+git commit -m "Entrega Examen UTN-FRA SO 2do TP - Valentina Torres"
+git push origin main
+git config --global user.email "torresvalentinaabril.01@gmail.com"
+git config --global user.name "Torres-valentina"
+git commit -m "Entrega Examen UTN-FRA SO 2do TP - Valentina Torres"
+git branch -M main
+git push -u origin main
+git branch -M main
+git push -u origin main
+ls -l ~/UTN-FRA_SO_Examenes/202406/
+find ~ -name "Punto_A.sh" -o -name "Punto_B.sh" -o -name "Punto_C.sh" -o -name "SartoriAltaUser-Groups.sh" 2>/dev/null
+cp /home/valentinat/RTA_Examen_20250704/Punto_A.sh 202406/RTA_Examen_20250704_Entrega/
+cp /home/valentinat/RTA_Examen_20250704/Punto_B.sh 202406/RTA_Examen_20250704_Entrega/
+cp /home/valentinat/RTA_Examen_20250704/Punto_C.sh 202406/RTA_Examen_20250704_Entrega/
+ls -l 202406/RTA_Examen_20250704_Entrega/
+history -a # Guarda el historial actual de la sesión
