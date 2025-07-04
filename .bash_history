@@ -297,3 +297,14 @@ find ~ -name "SartoriAltaUser-Groups.sh" 2>/dev/null
 touch 202406/RTA_Examen_20250704_Entrega/SartoriAltaUser-Groups.sh
 ls -l 202406/RTA_Examen_20250704_Entrega/
 history -a
+cp ~/.bash_history 202406/.bash_history
+git add .
+git commit -m "Completa estructura de entrega del examen con SartoriAltaUser-Groups.sh y actualiza bash_history"
+git push origin main
+mv 202406/RTA_Examen_20250704_Entrega .
+mv 202406/.bash_history .
+ls -l
+ls -l 202406/
+ls -l RTA_Examen_20250704_Entrega/
+ls -la
+history -a 
